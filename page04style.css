@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;    
+}
+a:link{}
+a:visited{}
+a:hover{}
+a:active{}
+header{
+
+    padding-top: 54px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: black;
+}
+nav{
+    z-index: 1000;
+    height: 31px;
+    position: absolute;
+    padding-top: 218px;
+    padding-left: 57%;
+    display: flex;
+    align-items: center;
+
+    /* background-color: aqua;
+    opacity: calc(50%); */
+}
+
+ul{
+    width: 600px;
+    display: flex;
+    align-items: baseline;
+/* 
+    background-color: pink; */
+}
+
+section{
+    height: 4320px;
+    position: relative;
+    background-color: black;
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 54px;
+    width: 100vw;
+}
+
+.pic01{
+    position: relative;
+    padding-top: 153px;
+    padding-left: 19%;
+}
+
+.pic02{
+    position: absolute;
+    padding-top: 105px;
+    right: 30.7%;
+}
+
+.pic03{
+    position: absolute;
+    padding-top: 658px;
+    right: 30.7%;
+}
+
+.pic04{
+    position: absolute;
+    padding-top: 1260px;
+    right: 30.7%;
+}
+
+.pic05{
+    position: absolute;
+    padding-top: 1826px;
+    right: 30.7%;
+}
+
+.letters01{
+    position: relative;
+    padding-top: 120px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+.letters02{
+    position: relative;
+    padding-top: 22px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 34px;
+
+}
+
+.letters03{
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 34px;
+
+}
+
+.letters04{
+    position: absolute;
+    padding-top: 117px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+.letters05{
+    position: absolute;
+    padding-top: 220px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+.letters06{
+    position: absolute;
+    padding-top: 280px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+.letters07{
+    position: absolute;
+    /* padding-top: 426-19px; */
+    padding-top: 407px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+.letters08{
+    position: absolute;
+    /* padding-top: 503-19px; */
+    padding-top: 468px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+.letters09{
+    position: absolute;
+    /* padding-top: 626-19px; */
+    padding-top: 607px;
+    padding-left: 30.7%;
+
+    color: red;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 34px;
+
+}
+.letters10{
+    position: absolute;
+    padding-top: 664px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+.letters11{
+    position: absolute;
+    padding-top: 792px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+.letters12{
+    position: absolute;
+    padding-top: 852px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+.letters13{
+    position: absolute;
+    padding-top: 1026px;
+    padding-left: 30.7%;
+
+    color: red;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+.letters14{
+    position: absolute;
+    padding-top: 1088px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+.letters15{
+    position: absolute;
+    padding-top: 1260px;
+    padding-left: 30.7%;
+
+    color: red;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+.letters16{
+    position: absolute;
+    padding-top: 1321px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 34px;
+
+}
+
+.letters17{
+    position: absolute;
+    padding-top: 1460px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+.letters18{
+    position: absolute;
+    padding-top: 1522px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+.letters19{
+    position: absolute;
+    padding-top: 1660px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+.letters20{
+    position:absolute;
+    padding-top: 1720px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+.letters21{
+    position: absolute;
+    padding-top: 1826px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+.letters22{
+    position: absolute;
+    padding-top: 1888px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+.letters23{
+    position: absolute;
+    padding-top: 2026px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+.letters24{
+    position: absolute;
+    padding-top: 2090px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+.letters25{
+    position: absolute;
+    padding-top: 2220px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 34px;
+
+}
+
+.letters26{
+    position: absolute;
+    padding-top: 2287px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+/* .letters03{
+    position: relative;
+    padding-top: 60px;
+    padding-left: 30.7%;
+
+    color: white;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 34px;
+} */

@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+
+    
+}
+a:link{}
+a:visited{}
+a:hover{}
+a:active{}
+
+header{
+    padding-top: 54px;
+    /* padding-top: 5%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    z-index: 1000;
+    /* 다른 사각형 영역이 버튼 위에 있으면 버튼이 활성화가 안 된다.
+    z-index를 이럴 때에 사용하면 된다. */
+    
+    height: 31px;
+    position: absolute;
+    padding-top: 218px;
+    padding-left: 57%;
+    /* padding-left: 986px; */
+
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+
+}
+nav ul{
+    width: 600px;
+    display: flex;
+    /* justify-content: space-between; */
+
+    align-items: baseline;
+    /* 베이스라인 꼭 기억하자!! */
+    /* background-color: deepskyblue; */
+}
+
+.pic01{
+    z-index: 1;
+    position: absolute;
+    padding-top: 153px;
+    padding-left: 21%;
+}
+
+.pic02{
+
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+    bottom: 0;
+    background-image: url(page01img/pic_main_02.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.letters01{
+    color: white;
+    position: absolute;
+    /* padding-left: 50%; */
+    padding-top: 340px;
+    padding-left: 57%;
+    /* padding-left: 986px; */
+
+    /* opacity: calc(50%);
+    background-color: gray; */
+    
+    font-family:'Noto Sans KR', sans-serif ;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 34px;
+}
+
+
+.letters02{
+    color: white;
+    position: absolute;
+    bottom: 375px;
+  
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    
+    
+
+    font-family:'Noto Sans KR', sans-serif ;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 34px;
+    text-align: center;
+    /* background-color: darkolivegreen; */
+
+}
+/* nav ul li a{
+    border: 1px solid red;
+} */
+
+/* .large_menu{
+
+    align-items: center;
+    padding-top: 196px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.small_menu{
+
+    align-items: center;
+    padding-top: 218px;
+    display: flex;
+    justify-content: space-between;
+} */
+
+section{
+
+    /* width: 1920px; */
+
+    height: 2160px;
+    position: relative;
+    background-color: black;
+    /* background-image: url(img/pic_main.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 54px;
+    width: 100%;
+    /* padding-bottom: 56px; */
+    /* background-color: #ED5E29; */
+}

@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;    
+}
+a:link{}
+a:visited{}
+a:hover{}
+a:active{}
+
+header{
+
+    padding-top: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+nav{
+    z-index: 1000;
+    /* 다른 사각형 영역이 버튼 위에 있으면 버튼이 활성화가 안 된다.
+    z-index를 이럴 때에 사용하면 된다. */
+    
+    height: 31px;
+    position: absolute;
+    padding-top: 218px;
+    padding-left: 57%;
+    /* padding-left: 986px; */
+
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+
+}
+ul{
+    width: 600px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: baseline;
+
+    /* background-color: pink; */
+
+}
+
+section{
+    height: 6480px;
+    position: relative;
+    /* background-color: white; */
+    background-color: white;
+    
+    
+    z-index: 1;
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+    bottom: 54px;
+    width: 100%;
+    /* padding-bottom: 56px; */
+    /* background-color: #ED5E29; */
+}
+
+.pic01{
+    position: absolute;
+    padding-top: 153px;
+    z-index: 100;
+
+    /* justify-content: left;
+    display: flex; */
+    /* justify-content: center;
+    display: flex; */
+}
+
+.pic02{
+    position: absolute;
+    height: 927px;
+    width: 100vw;
+    /* width: 100%; */
+    background-color: black;
+    z-index: 1;
+    /* opacity: calc(55%); */
+}
+
+.letters01{
+    position: relative;
+    padding-top: 1087px;
+    padding-left: 19%;
+
+    color: black;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    line-height: 34px;
+}
+
+.letters02{
+    position: relative;
+    padding-top: 35px;
+    padding-left: 19%;
+
+    font-family:'Noto Sans KR', sans-serif ;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: -1.5px;
+    line-height: 34px;
+}
+
+.letters03{
+    position: relative;
+    padding-top: 160px;
+    right: 19%;
+
+    color: black;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    line-height: 34px;
+    text-align: right;
+}
+
+.letters04{
+    position: relative;
+    padding-top: 35px;
+    right: 19%;
+
+    font-family:'Noto Sans KR', sans-serif ;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: -1.5px;
+    line-height: 34px;
+    text-align: right;
+}
+
+.letters05{
+    position: relative;
+    padding-top: 160px;
+    padding-left: 19%;
+
+    color: black;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    line-height: 34px;
+}
+
+.letters06{
+    position: relative;
+    padding-top: 35px;
+    padding-left: 19%;
+
+    font-family:'Noto Sans KR', sans-serif ;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: -1.5px;
+    line-height: 34px;
+}
+
+.letters07{
+    position: relative;
+    padding-top: 160px;
+    right: 19%;
+
+    color: black;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    line-height: 34px;
+    text-align: right;
+}
+
+.letters08{
+    position: relative;
+    padding-top: 35px;
+    right: 19%;
+
+    font-family:'Noto Sans KR', sans-serif ;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: -1.5px;
+    line-height: 34px;
+    text-align: right;
+}
+
+.letters09{
+    position: relative;
+    padding-top: 160px;
+    padding-left: 19%;
+
+    color: black;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    line-height: 34px;
+}
+
+.letters10{
+    position: relative;
+    padding-top: 35px;
+    padding-left: 19%;
+
+    font-family:'Noto Sans KR', sans-serif ;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: -1.5px;
+    line-height: 34px;
+}
+
+.letters11{
+    position: relative;
+    padding-top: 160px;
+    right: 19%;
+
+    color: black;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    line-height: 34px;
+    text-align: right;
+}
+
+.letters12{
+    position: relative;
+    padding-top: 35px;
+    right: 19%;
+
+    font-family:'Noto Sans KR', sans-serif ;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: -1.5px;
+    line-height: 34px;
+    text-align: right;
+}
+
+.letters13{
+    position: relative;
+    padding-top: 160px;
+    padding-left: 19%;
+
+    color: black;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    line-height: 34px;
+}
+
+.letters14{
+    position: relative;
+    padding-top: 35px;
+    padding-left: 19%;
+
+    font-family:'Noto Sans KR', sans-serif ;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: -1.5px;
+    line-height: 34px;
+}
+
+.letters15{
+    position: relative;
+    padding-top: 160px;
+    right: 19%;
+
+    color: black;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    line-height: 34px;
+    text-align: right;
+}
+
+.letters16{
+    position: relative;
+    padding-top: 35px;
+    right: 19%;
+
+    font-family:'Noto Sans KR', sans-serif ;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: -1.5px;
+    line-height: 34px;
+    text-align: right;
+}
+
+.letters17{
+    position: relative;
+    padding-top: 160px;
+    padding-left: 19%;
+
+    color: black;
+    font-family:'Noto Serif KR', serif ;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    line-height: 34px;
+}
+
+.letters18{
+    position: relative;
+    padding-top: 35px;
+    padding-left: 19%;
+
+    font-family:'Noto Sans KR', sans-serif ;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: -1.5px;
+    line-height: 34px;
+}
